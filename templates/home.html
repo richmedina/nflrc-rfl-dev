@@ -6,8 +6,8 @@
 {% block page_header %}
 <div class="row">
 	<div class="col-md-9">
-		<h5>Johanna Watzinger-Tharp and Kate Paesani, Editors</h5>
-		<p class="small">Supported by the Center for Language & Technology and the National Foreign Language Resource Center (NFLRC) at the University of Hawaii</p>	
+		<h5>Richard Day and John Macalister, Editors</h5>
+		<p class="small">Supported by the Center for Language & Technology and the National Foreign Language Resource Center at the University of Hawai‘i at Mānoa</p>	
 	</div>
 </div>	
 {% endblock page_header %}
@@ -62,8 +62,8 @@
 				{% endfor %}
 			</div>
 			<div class="col-md-6">
-				{% if toc.Report %}<h4 class="border-space">Reports</h4>{% endif %}
-				{% for sub_type, data in toc.Report.items %} 
+				{% if toc.Review %}<h4 class="border-space">Reviews</h4>{% endif %}
+				{% for sub_type, data in toc.Review.items %} 
 					<strong>{{ sub_type }}</strong>
 					<p class="small">{% if data.editors %}Edited by{% endif %} {% for j in data.editors%} <em>{{ j }}{% if not forloop.last %}; {% endif %}</em> {% endfor %}</p>
 					{% for doc in data.records %}

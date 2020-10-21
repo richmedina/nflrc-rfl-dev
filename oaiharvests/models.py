@@ -224,7 +224,7 @@ class Collection(TimeStampedModel):
                         
             except Exception as e:
                 pass  # record must not have a type specified so proceed quietly
-        
+        print toc.keys()
         return toc
 
     def get_absolute_url(self):

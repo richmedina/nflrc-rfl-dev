@@ -7,12 +7,12 @@ SECRET_KEY = os.environ['SECRET_KEY']
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
-STATIC_ROOT = '/Library/WebServer/Documents/static/nflrcllt'
+STATIC_ROOT = '/Library/WebServer/Documents/static/nflrcrfl'
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'nflrc-slrp-dev-db',
+        'NAME': 'nflrc-rfl-dev-db',
         'USER': 'djangodb_user',
         'PASSWORD': 'postgres',
         'HOST': '127.0.0.1',
