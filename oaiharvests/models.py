@@ -200,9 +200,9 @@ class Collection(TimeStampedModel):
                     # Fetch page number from list if not zero
                     if rec[1]: toc_item[3] = rec[1]  
 
-                    # Get subtopic (llt.topic)
+                    # Get subtopic (rfl.topic)
                     try:
-                        rec_subtype = rec_data['llt.topic'][0]
+                        rec_subtype = rec_data['rfl.topic'][0]
                     except:
                         rec_subtype = ''
 
