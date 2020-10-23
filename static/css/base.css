@@ -8,7 +8,8 @@ body {
   padding-top: 100px;
   padding-bottom: 50px;
   /*font-family: 'Open Sans', sans-serif;*/
-  font-family: 'Roboto Slab', serif;
+  /*font-family: 'Roboto Slab', serif;*/
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
   /*font-family: 'Merriweather', serif;*/
   font-weight: 400;
 }
